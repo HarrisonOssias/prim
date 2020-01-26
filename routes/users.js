@@ -13,10 +13,9 @@ const config = require('config');
 router.post(
   '/',
   [
-    check('name', 'Name is required')
+    check('username', 'Username is required')
       .not()
       .isEmpty(),
-    check('email', 'Please include a valid email').isEmail(),
     check(
       'password',
       'Please enter a password with 6 or more characters'
@@ -40,8 +39,6 @@ router.post(
 
       // Creating a new user object with the information taken out from the body name, email and password
       const newUser = new User({
-        email,
-        name,
         username,
         password
       });
