@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://orrca:Windsor00@cluster0-god01.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
