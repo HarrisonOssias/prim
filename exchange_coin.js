@@ -78,6 +78,11 @@
     }
 
     //submit transaction with $1000 fee on the transaction
+    // Talk about how we need the ios sdk in order to 
+    // Hard code saying the transaction succeeded
+    // Show that the transaction between accounts worked - paste accnt number -> search on testnet, accnt balance.
+    // Latest block, generate accnt, get accnt details, take the id - paste in generator, recover accnt, submit transaction
+    // Camtasia to record the presentation
     if (st) {
         st.onclick = function () {
             let p1Bal = 0;
@@ -112,7 +117,7 @@
                 ta.innerHTML = e.text;
                 console.log(e);
             });
-
+            console.log("Successful transfer");
         }
     }
     //Get transaction note
