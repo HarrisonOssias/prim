@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://camorr123:Windsor00@collaborativelearning-gxpnv.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
