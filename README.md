@@ -1,2 +1,2 @@
-# scrAPI
+# prim
 DeltaHacks
